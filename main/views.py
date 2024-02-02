@@ -9,3 +9,7 @@ def catalog(request):
 
 def contact(request):
     return render(request, 'main/contact.html')
+
+
+def home(request):
+    return render(request, 'main/home.html')
